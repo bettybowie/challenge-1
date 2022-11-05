@@ -1,10 +1,11 @@
-/* General Style Base Layout */
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
     background-color: #d9dcd6;
 }
@@ -13,7 +14,6 @@ p {
     font-size: 16px;
 }
 
-/* Set the layout for header and navigation bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +49,19 @@ a {
     text-decoration: none;
 } 
 
-/* Set the cover image */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+
+/* Class Selectors */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +70,6 @@ a {
     background-position: center;
 }
 
-/* Set the layout for the bottom left  */
 .content {
     width: 75%;
     display: inline-block;
@@ -91,7 +102,6 @@ a {
     max-height: 200px;
 }
 
-/* Set the layout for bottom right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -117,18 +127,6 @@ a {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Layout for footer */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
 
 
