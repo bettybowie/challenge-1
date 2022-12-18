@@ -26,8 +26,8 @@ When the webpage is open, it will look the same as the original. But when the ht
 
 ## Links
 
-Solution URL: [https://github.com/bettybowie/challenge-1]
-Live URL: [https://bettybowie.github.io/challenge-1/]
+Solution URL: [https://github.com/bettybowie/codeRefactor]
+Live URL: [https://bettybowie.github.io/codeRefactor/]
 
 
 ## License
